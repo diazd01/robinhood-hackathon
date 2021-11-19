@@ -13,15 +13,15 @@ export default function Hero() {
       <Carousel>
         <div>
           <img src={imageOne} alt="carousel 1" />
-          <p className="legend"></p>
+          {/* <p className="legend"></p> */}
         </div>
         <div>
           <img src={imageTwo} alt="carousel 2" />
-          <p className="legend"></p>
+          {/* <p className="legend"></p> */}
         </div>
         <div>
           <img src={imageThree} alt="carousel 3" />
-          <p className="legend"></p>
+          {/* <p className="legend"></p> */}
         </div>
       </Carousel>
     </div>
