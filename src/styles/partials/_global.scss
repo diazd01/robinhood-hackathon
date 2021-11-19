@@ -1,0 +1,15 @@
+@use "./_typography.scss" as *;
+@use "./_variables.scss" as *;
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}

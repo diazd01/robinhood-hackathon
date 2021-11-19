@@ -1,0 +1,14 @@
+@use "./_variables.scss" as *;
+
+@mixin mQ($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin mQ($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
+
