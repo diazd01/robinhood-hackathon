@@ -1,0 +1,20 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+html {
+  scroll-behavior: smooth;
+  // width: 200vw;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // font-family: "Segoe Ui, Helvetica, Arial Sans-Serif";
+  font-family: "Maison Neue Bold";
+}
