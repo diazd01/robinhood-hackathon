@@ -1,6 +1,9 @@
 import "./BannerOne.scss";
 import React, { Component } from "react";
 import Modal from "../BannerModal/Modal";
+import cardImgThree from "../../assets/images/moneyverse_leaning.png";
+import cardImgOne from "../../assets/images/moneyverse_sitting.png";
+import cardImgTwo from "../../assets/images/moneyverse_standing.png";
 
 export default class BannerOne extends Component {
   constructor() {
@@ -29,22 +32,61 @@ export default class BannerOne extends Component {
 
         <div className="banner-one__container">
           <Modal show={this.state.show} handleClose={this.hideModal}>
-            <p>Modal</p>
+            <p>Modal c</p>
           </Modal>
+
           <div
             className="banner-one__card deleteModal__button"
             onClick={this.showModal}
           >
-            <h1 className="banner-one__card-title">Beginner Trader</h1>
-            <p className="banner-one__card-subtitle">I'm new here!</p>
+            <div className="banner-one__card-title-container">
+              <h1 className="banner-one__card-title">Beginner Trader</h1>
+            </div>
+
+            <div className="banner-one__card-subtitle-container">
+              <img
+                src={cardImgOne}
+                alt="card figures"
+                className="banner-one__card-image"
+              />
+              <p className="banner-one__card-subtitle">I'm new here!</p>
+            </div>
           </div>
-          <div className="banner-one__card" onClick={this.showModal}>
-            <h1 className="banner-one__card-title">Intermediate Trader</h1>
-            <p className="banner-one__card-subtitle">I know a little.</p>
+
+          <div
+            className="banner-one__card deleteModal__button"
+            onClick={this.showModal}
+          >
+            <div className="banner-one__card-title-container">
+              <h1 className="banner-one__card-title">Novice Crypto Trader</h1>
+            </div>
+
+            <div className="banner-one__card-subtitle-container">
+              <img
+                src={cardImgTwo}
+                alt="card figures"
+                className="banner-one__card-image"
+              />
+              <p className="banner-one__card-subtitle">I know a little.</p>
+            </div>
           </div>
-          <div className="banner-one__card" onClick={this.showModal}>
-            <h1 className="banner-one__card-title">Advanced Trader</h1>
-            <p className="banner-one__card-subtitle">Don't @ me</p>
+
+          <div
+            className="banner-one__card deleteModal__button"
+            onClick={this.showModal}
+          >
+            <div className="banner-one__card-title-container">
+              <h1 className="banner-one__card-title">Advanced Crypto Trader</h1>
+            </div>
+
+            <div className="banner-one__card-subtitle-container">
+              <img
+                src={cardImgThree}
+                alt="card figures"
+                className="banner-one__card-image"
+              />
+              <p className="banner-one__card-subtitle">Don't @ me.</p>
+            </div>
           </div>
         </div>
       </div>
