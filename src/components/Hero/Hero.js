@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <div>
       <h1>Hero</h1>
-      <Carousel>
+      {/* <Carousel>
         <div>
           <img src={imageOne} alt="carousel 1" />
           <p className="legend"></p>
@@ -23,7 +23,7 @@ export default function Hero() {
           <img src={imageThree} alt="carousel 3" />
           <p className="legend"></p>
         </div>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }
