@@ -29,7 +29,7 @@ export default class BannerOne extends Component {
 
         <div className="banner-one__container">
           <Modal show={this.state.show} handleClose={this.hideModal}>
-            <p>Modal</p>
+            <p>Modal c</p>
           </Modal>
           <div
             className="banner-one__card deleteModal__button"
