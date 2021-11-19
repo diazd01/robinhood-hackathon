@@ -88,31 +88,6 @@ export default class BannerOne extends Component {
               <p className="banner-one__card-subtitle">Don't @ me.</p>
             </div>
           </div>
-
-          {/* <div className="banner-one__card" onClick={this.showModal}>
-            <img
-              src={cardImgTwo}
-              alt="card figures"
-              className="banner-one__card-image"
-            />
-            <div className="banner-one__card-title-container">
-              <h1 className="banner-one__card-title">Intermediate Trader</h1>
-            </div>
-            <div className="banner-one__card-subtitle-container">
-              <p className="banner-one__card-subtitle">I know a little.</p>
-            </div>
-          </div>
-
-          <div className="banner-one__card" onClick={this.showModal}>
-            <img
-              src={cardImgThree}
-              alt="card figures"
-              className="banner-one__card-image"
-            />
-            <h1 className="banner-one__card-title">Advanced Trader</h1>
-
-            <p className="banner-one__card-subtitle">Don't @ me</p>
-          </div> */}
         </div>
       </div>
     );

@@ -6,10 +6,10 @@
 .banner-one {
   display: flex;
   flex-direction: column;
-  position: absolute;
+
   background: linear-gradient(180deg, #38162f 71.12%, #ff5c88 100%);
   padding: 2rem 2rem;
-  width: 100%;
+  width: 1440px;
   height: 798px;
 }
 
@@ -18,6 +18,7 @@
   margin-left: 2rem;
   font-size: 50px;
   color: white;
+  padding-bottom: 1rem;
 }
 
 .banner-one__text {
@@ -25,9 +26,10 @@
   margin-left: 2rem;
   margin-bottom: 1rem;
   width: 75vw;
-  line-height: 1.5rem;
+  line-height: rem;
   font-size: 32px;
   color: white;
+  padding-bottom: 2rem;
 }
 
 .banner-one__container {
@@ -82,4 +84,5 @@
 
 .banner-one__card-image {
   max-height: 120px;
+  margin-bottom: 2rem;
 }

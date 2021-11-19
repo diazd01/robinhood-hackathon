@@ -14,6 +14,8 @@ export default function Header() {
           <li className="nav__list-item">Learn</li>
           <li className="nav__list-item">Support</li>
           <li className="nav__list-item">Who We Are</li>
+          <li className="nav__list-item--login">Login</li>
+          <button className="nav__list-item--button">Sign Up</button>
         </ul>
       </nav>
     </div>

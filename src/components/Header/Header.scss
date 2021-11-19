@@ -13,7 +13,7 @@
   width: 100%;
   z-index: 2;
   padding: 2rem 4rem;
-  height: 4vh;
+  height: 113px;
   background-color: #ffffff;
 
   &__logo-container {
@@ -24,6 +24,23 @@
 .nav__list {
   display: flex;
 }
+
 .nav__list-item {
-  padding: 1rem 0.7rem;
+  padding: 1rem 3rem;
+  font-size: 25px;
+  &--login {
+    padding: 1rem 3rem;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  &--button {
+    width: 131px;
+    height: 65px;
+    color: white;
+    background-color: #00c805;
+    border-radius: 33px;
+    font-size: 25px;
+    font-style: arial;
+    border: none;
+  }
 }
