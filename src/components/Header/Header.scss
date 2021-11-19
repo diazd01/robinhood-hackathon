@@ -1,0 +1,29 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 2rem 4rem;
+  height: 4vh;
+  background-color: #ffffff;
+
+  &__logo-container {
+    margin-right: 2rem;
+  }
+}
+
+.nav__list {
+  display: flex;
+}
+.nav__list-item {
+  padding: 1rem 0.7rem;
+}
