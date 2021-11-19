@@ -1,9 +1,9 @@
-@use "./_typography.scss" as *;
-@use "./_variables.scss" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
 
 html {
-  box-sizing: border-box;
   scroll-behavior: smooth;
+  // width: 200vw;
 }
 
 *,
@@ -11,5 +11,10 @@ html {
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  // font-family: "Segoe Ui, Helvetica, Arial Sans-Serif";
+  font-family: "Maison Neue Bold";
 }
