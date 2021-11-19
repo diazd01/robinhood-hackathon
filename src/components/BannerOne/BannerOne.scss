@@ -6,14 +6,18 @@
 .banner-one {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
-  //   justify-content: center;
+  position: absolute;
+  background: linear-gradient(180deg, #38162f 71.12%, #ff5c88 100%);
+  padding: 2rem 2rem;
+  width: 100%;
+  height: 798px;
 }
 
 .banner-one__title {
   text-align: left;
   margin-left: 2rem;
-  font-size: 1.5rem;
+  font-size: 50px;
+  color: white;
 }
 
 .banner-one__text {
@@ -22,7 +26,8 @@
   margin-bottom: 1rem;
   width: 75vw;
   line-height: 1.5rem;
-  font-size: 0.8rem;
+  font-size: 32px;
+  color: white;
 }
 
 .banner-one__container {
@@ -35,24 +40,46 @@
 }
 
 .banner-one__card {
-  background-color: #adccbd;
-  border-radius: 5px;
-  height: 10rem;
-  width: 30%;
+  background-color: #4c2663;
+  border-radius: 20px;
+  height: 486px;
+  width: 360px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-one__card-title-container {
+  background-color: #8127bb;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-self: flex-start;
   justify-content: center;
   align-items: center;
-  //   border: 1px solid blue;
+}
+.banner-one__card-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
 }
 
 .banner-one__card-title {
   padding-bottom: 1rem;
-  font-size: 1rem;
-  //   width: 80%;
-  //   text-align: center;
+  font-size: 32px;
+  color: white;
 }
 
 .banner-one__card-subtitle {
-  font-size: 0.8rem;
+  font-size: 32px;
+  color: white;
+}
+
+.banner-one__card-image {
+  max-height: 120px;
 }

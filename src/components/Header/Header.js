@@ -4,7 +4,18 @@ import "./Header.scss";
 export default function Header() {
   return (
     <div>
-      <h1>Header</h1>
+      <nav className="nav">
+        <div className="nav__logo-container">
+          <h2 className="nav__link-logo">Robinhood</h2>
+        </div>
+
+        <ul className="nav__list">
+          <li className="nav__list-item">Products </li>
+          <li className="nav__list-item">Learn</li>
+          <li className="nav__list-item">Support</li>
+          <li className="nav__list-item">Who We Are</li>
+        </ul>
+      </nav>
     </div>
   );
 }

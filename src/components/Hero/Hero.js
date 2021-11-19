@@ -8,9 +8,25 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Hero() {
   return (
-    <div>
-      <h1>Hero</h1>
-      {/* <Carousel>
+    <div className="hero">
+      {/* <h1 className="hero__heading">This is crypto.</h1> */}
+
+      <Carousel className="carousel">
+        <div className="hero-car__container">
+          <h1 className="hero-car__text">This is crypto.</h1>
+        </div>
+        <div>
+          <img src={imageTwo} alt="carousel 2" />
+          {/* <p className="legend">Text</p> */}
+        </div>
+        <div>
+          <img src={imageThree} alt="carousel 3" />
+          {/* <p className="legend">Text</p> */}
+        </div>
+      </Carousel>
+    </div>
+  );
+  /* <Carousel>
         <div>
           <img src={imageOne} alt="carousel 1" />
           <p className="legend"></p>
@@ -23,7 +39,5 @@ export default function Hero() {
           <img src={imageThree} alt="carousel 3" />
           <p className="legend"></p>
         </div>
-      </Carousel> */}
-    </div>
-  );
+      </Carousel> */
 }
